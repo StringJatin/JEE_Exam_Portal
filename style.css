@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap);
+.navigation{
+    border: 2px solid black;
+    padding: 15px;
+    background-color:rgb(189, 20, 90);
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    z-index: 9;
+    
+}
+.container {
+    margin-top: 20px;
+    border: 1px solid black;
+    /* height: 60%; */
+    padding-bottom: 20px;
+    
+}
+.headline{
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    background-color: #045EA0;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+}
+.mainForm{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    font-weight: bold;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 20px;
+}
+.input{
+    box-sizing: border-box;
+    margin:20px;
+    width: 300px;
+    padding: 3px;
+
+}
+.imgheader{
+    display: flex;
+    flex-direction: row;
+    gap: 360px;
+    margin: 0px 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    justify-content: space-between;
+    padding: 0px 10px 10px 20px;
+    z-index: -9;
+}
+.minedu{
+    display: flex;
+    justify-content: space-between;
+}
+.nta{
+    margin-top: -30px;
+    display: flex;
+    justify-content: right;
+    height: 150px;
+}
+footer{
+    border : 1px solid black;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: flex;
+    padding: 5px;
+    background-color:rgb(189, 20, 90);
+    justify-content: center;
+    color: white;
+}
+.submitbtn{
+    border-radius: 5px;
+    background-color: #045EA0;
+    color: white;
+    cursor: pointer;
+}
+.submitbtn:hover{
+    background-color: rgb(130, 206, 130);
+    color: black;
+}
+.pin{
+    width: 150px;
+    padding: 3px;
+}
+.genPin{
+    margin-left: 20px;
+    margin-right:5px;
+}
